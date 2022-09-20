@@ -5,7 +5,7 @@ function Overzicht () {
        return (
         <div>
             Blog Overzicht
-            <h1>Aantal BlogPosts : {ArrayPost.length} </h1>
+            <h1>Het Aantal BlogPosts : {ArrayPost.length} </h1>
             <ul>
                 {ArrayPost.map((posten) => {
                 return <li>
