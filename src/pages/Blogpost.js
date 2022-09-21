@@ -5,7 +5,10 @@ function Blogpost() {
     const {Id} = useParams();
       ArrayPost.find((idFromBlog) => {
         return idFromBlog.id === Id
+
     })
 }
+
+
 
 export default Blogpost;

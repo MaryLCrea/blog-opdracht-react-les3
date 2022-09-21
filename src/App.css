@@ -2,6 +2,33 @@
   text-align: center;
 }
 
+.bar {
+    background-color: blueviolet;
+}
+
+.tekstul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blueviolet;
+}
+.tekst {
+  float: left;
+}
+
+.tekst1 {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+li a:hover {
+  background-color: pink;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
